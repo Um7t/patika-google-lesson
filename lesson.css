@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box; margin: 0; padding:0;
+}
+
+article{
+    margin-top: 20px;
+}
+
+img{
+    display: flex;
+    margin: auto;
+}
+
+
+input{
+    display: flex;
+    margin: auto;
+    width: 500px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+input:hover{
+    width: 600px;
+    border-color: lightblue;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+div .btn{
+    padding: 6px;
+    
+    margin-left: 4px;
+    width: 200px;
+}
+
+.btn:hover{
+    color: red;
+    background-color: black;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+.secone{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    margin: auto;
+    
+}
+
+
+.secone:hover{
+    background-color: lightcoral;
+    color: white;
+    cursor: wait;
+}
+
+
+.sectwo{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    margin:auto;
+}
+
+.sectwo:hover{
+    background-color: tomato;
+    color: white;
+    cursor: wait;
+}
+
+
+
+.secthree{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    margin:auto;
+}
+
+.secthree:hover{
+    background-color: pink;
+    cursor: wait;
+}
+
+.secone ul li a{
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.sectwo ul li a{
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.secthree ul li a{
+    text-decoration: none;
+    color: gray;
+    
+}
+
+#divim{
+    margin-top: 20px;
+}
+
+ul li a::marker{
+    list-style-type: none;
+}
